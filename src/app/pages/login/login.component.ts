@@ -34,7 +34,6 @@ export class LoginComponent {
   }
 
   submit() {
-    console.log(this.loginForm.value)
     this.loginService.login(this.loginForm.value.email, this.loginForm.value.password).subscribe({
       next: () => {
         this.toastService.success("Login done successfully!")
@@ -46,7 +45,6 @@ export class LoginComponent {
   }
 
   navigate() {
-    console.log(this.loginForm.value)
     this.router.navigate(["signup"])
   }
 

@@ -38,7 +38,6 @@ export class SignupComponent {
   }
 
   submit() {
-    console.log(this.signupForm.value)
     this.loginService.login(this.signupForm.value.email, this.signupForm.value.password).subscribe({
       next: () => {
         this.toastService.success("Login done successfully!")
