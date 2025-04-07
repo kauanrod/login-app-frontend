@@ -39,11 +39,11 @@ Este é o repositório do frontend de uma aplicação de login desenvolvida com 
   <br>
     <a href="http://localhost:4200/login">Tela de login</a>
     <br>
-    <img src="/assets/images/login-screen.png" alt="Tela de login"/>
+    <img src="src/assets/images/login-screen.png" alt="Tela de login"/>
     <br>
     <a href="http://localhost:4200/login">Tela de cadastro</a>
     <br>
-    <img src="/assets/images/signup-screen.png" alt="Tela de cadastro"/>
+    <img src="src/assets/images/signup-screen.png" alt="Tela de cadastro"/>
 
   ## 🏢 Backend
   Para o funcionamento completo da aplicação, é necessário configurar o backend correspondente. Você pode encontrar o repositório do backend aqui:
