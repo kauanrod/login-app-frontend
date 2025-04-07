@@ -36,6 +36,7 @@ Este é o repositório do frontend de uma aplicação de login desenvolvida com 
   <a href="http://localhost:4200/">localhost:4200</a>
 
   3.1. Telas existentes:
+  <br>
     <a href="http://localhost:4200/login">Tela de login</a>
     <br>
     <img src="/assets/images/login-screen.png" alt="Tela de login"/>
